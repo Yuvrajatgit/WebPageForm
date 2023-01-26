@@ -1,0 +1,54 @@
+.btnSpan{
+    align-items: center;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-shrink: 0;
+    font-family: "apercu-pro";
+    font-size: 14px;
+    background: rgb(125, 0, 254);
+    font-weight: 500;
+    height: 28px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 28px;
+}
+
+.btn{
+    align-items: center;
+    background: rgba(17, 17, 17, 0.1);
+    border: none;
+    border-radius: 30px;
+    color: rgb(17, 17, 17);
+    cursor: pointer;
+    display: flex;
+    -webkit-box-flex: 2;
+    flex-grow: 2;
+    font-size: 18px;
+    font-weight: 500;
+    height: auto;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    line-height: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 0px 24px 0px 16px;
+    position: relative;
+    width: 336px;
+    pointer-events: initial;
+}
+
+.btn:hover {
+    border: 2px solid  rgb(125, 0, 254);
+    border-radius: 30px;
+    cursor:pointer;
+}
+
+.btnSpan2{
+    cursor: pointer;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    padding: 18px 0px;
+    text-align: left;
+}

@@ -1,0 +1,23 @@
+.video{
+    cursor: pointer;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    transition-delay: 1s;
+    opacity: 1;
+    background: transparent;
+}
+
+.content h1{
+    position: relative;
+    padding: 96px 48px 48px;
+    font-weight: 700;
+    opacity: 20;
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+    color: white;
+    pointer-events: none;
+    font-size: 3vmax;
+}

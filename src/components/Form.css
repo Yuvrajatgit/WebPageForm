@@ -1,0 +1,45 @@
+.form{
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out 0s;
+    height: 100%;
+    width: 100%;
+}
+
+.formDiv{
+    padding-top: 280px;
+}
+
+.btn{
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgba(17, 17, 17, 0.1);
+    border: none;
+    border-radius: 30px;
+    color: rgb(17, 17, 17);
+    cursor: pointer;
+    display: flex;
+    -webkit-box-flex: 2;
+    flex-grow: 2;
+    font-size: 18px;
+    font-weight: 500;
+    height: auto;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    line-height: 20px;
+    margin-bottom: 16px;
+    outline: none;
+    padding: 0px 24px 0px 16px;
+    position: relative;
+    transition: background-color 0.4s ease 0s;
+    width: 336px;
+    pointer-events: initial;
+}
+
+.btn:hover {
+    border: 2px solid  rgb(125, 0, 254);
+    border-radius: 30px;
+    cursor:pointer;
+ }
